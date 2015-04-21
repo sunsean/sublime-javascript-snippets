@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-setInterval(function() {
-	${2}
-}, ${1:delay});
+setInterval(${2:fn}, ${1:delay});
 ]]></content>
 	<tabTrigger>si</tabTrigger>
 	<scope>source.js</scope>
